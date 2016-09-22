@@ -1,0 +1,78 @@
+
+body{
+	margin: 0px; 
+	padding: 0px; 
+	font-family: '宋体'; 
+	font-size: 14px;
+	width:100%;
+	height:100%;
+	min-width: 900px;
+}
+ul{
+	margin:0px;
+	padding: 0px;
+	overflow: auto;
+}
+li{
+	list-style: none;
+}
+textarea{
+	resize: none;
+}
+.utilBtn{
+	list-style: none;
+	float: right;
+	border-left: 1px solid #bababa;
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+.utilBtn:hover{
+	background-color: #448ed8;
+	color: #FFF;
+}
+.util-filter{
+	background: url('../imgs/todown.png') no-repeat;
+	background-position: 90% 50%;
+}
+/*  表格样式  */
+#tableDiv table{
+    color: #333;
+    font-size: 13px;
+    text-align: center;
+}
+#tableDiv table th{
+	background-color: #448ed8;
+    cursor: default;
+    border: #90cafb solid;
+    border-width: 1px 1px 1px 0;
+    padding: 1px 2px;
+    height: 25px;
+    color: #fff;
+}
+#tableDiv table td{
+	height: 25px;
+    border: #90cafb solid;
+    border-width: 0 1px 1px 0;
+    padding: 3px 2px;
+}
+.clicktxt {
+    text-decoration: underline;
+}
+.clicktxt:hover{
+	cursor: pointer;
+    color: #448ed8;
+}
+.btn{width: 85px; height: 30px; cursor: pointer;border-radius: 2px;}
+.btn-submit{
+	background: -webkit-linear-gradient(#33AFEF, #448ED8);
+    background: -o-linear-gradient(#33AFEF, #448ED8);
+    background: linear-gradient(#33AFEF, #448ED8);
+    border: 0;
+    color: #fff;
+    box-shadow: 1px 1px 3px #888888;
+}
+
+
